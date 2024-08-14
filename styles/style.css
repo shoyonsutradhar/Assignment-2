@@ -5,20 +5,36 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
-/*  -----------shared style --------------*/
+/*  ----------------------------shared style --------------*/
 .display-flex {
   display: flex;
 }
 .bg-color {
-  background: rgba(17, 17, 17, 1);
+  background-color: black;
 }
 .pry-color {
   background-color: #e6533c;
 }
-/* header section styles-------- */
+.button-praimary {
+  padding: 15px 35px;
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 1px solid rgb(216, 67, 67);
+}
+.Miama{
+  font-family: "miama";
+}
+
+/* ----------------------share style------------------------ */
 .header-section {
-  max-width: 80%;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: auto;
+}
+.container {
+  width: 1440px;
+  margin: auto;
 }
 .navber {
   justify-content: space-between;
@@ -30,7 +46,7 @@
 }
 .nav-link {
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(245, 243, 243);
   font-size: 17px;
   font-weight: 700;
 }
@@ -44,13 +60,12 @@
 .nav-btn {
   padding: 5px 30px;
   color: whitesmoke;
-
-  font-size: 15px;
+  font-size:15px;
   font-weight: 700;
   border-radius: 15px;
-  border: 1px solid rgb(216, 67, 67);
+  border: 2px solid rgb(219, 64, 3);
 }
-/*  header stay-healthy-container and images styles  */
+/* ........................ header stay-healthy-container and images styles ......................... */
 .stay-healthy-container {
   justify-content: space-between;
   align-items: center;
@@ -65,27 +80,270 @@
 .get-body-discription {
   color: darkgray;
   font-size: 15px;
-  font-weight: 500;
-  opacity: 0.7;
+  font-weight: bolder;
+  /* opacity: 0.7; */
   width: 375px;
-  margin-top: -30px;
+  /* margin-top: -30px; */
   margin-bottom: 35px;
 }
-.header-btn-1 {
-  padding: 15px 35px;
-  color: whitesmoke;
-  font-size: 14px;
-  font-weight: 600;
-  border-radius: 30px;
-  border: 1px solid rgb(216, 67, 67);
+.my-custom {
+  display: flex;
+  gap: 25px;
 }
 .header-btn-2 {
   color: whitesmoke;
   background-color: rgba(17, 17, 17, 1);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: bolder;
   padding: 15px 35px;
   border-radius: 30px;
   border: 1px solid whitesmoke;
 }
 /*------------------------------main section-----------------------*/
+.habit-title {
+  color: whitesmoke;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+}
+.habit-description {
+  color: rgb(211, 208, 208);
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
+  width: 572px;
+  margin: auto;
+}
+.your-habits-description {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.images-description img {
+  border: 2px solid rgb(48, 46, 46);
+  border-radius: 50%;
+}
+.images-description h4 {
+  color: whitesmoke;
+  text-align: center;
+}
+.images-description p {
+  color: rgb(215, 210, 210);
+  text-align: center;
+  width: 240px;
+}
+/* ------------habit section end------------------ */
+.container-run {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(160, 155, 155);
+  border-radius: 10px;
+  background-color: rgb(53, 53, 55);
+  margin-top: 50px;
+}
+.Mile-Easily h1 {
+  color: whitesmoke;
+  font-size: 3rem;
+  width: 300px;
+  font-weight: bolder;
+}
+.Mile-Easily p {
+  color: rgb(215, 210, 210);
+  font-weight: bolder;
+  width: 380px;
+}
+.Mile-Easily {
+  padding: 30px 30px 30px 50px;
+}
+.Mile-Easily-image {
+  padding: 45px 30px;
+}
+.Mile-Easily-image img {
+  height: 300px;
+  width: auto;
+  border-radius: 20px;
+}
+.Mail-Easily-btn{
+  padding: 15px 75px;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 1px solid rgb(216, 67, 67);
+
+}
+/* -----------------------------------mile section end-------------------------------------- */
+/* -----------------------------------BMI section----------------------------------------- */
+.BMI-Calculator{
+  margin-bottom: 130px;
+}
+.BMI-Calculator-header{
+  width: 580px;
+  margin: 100px 250px;
+}
+.BMI-Calculator-header h1{
+  color: whitesmoke;
+  font-size: 4rem;
+  font-weight: bolder;
+
+}
+.BMI-Calculator-header p{
+  color:rgb(215, 210, 210) ;
+  font-size: 1.12rem;
+}
+.BMI-Container{
+  display: flex;
+  justify-content: space-between;
+}
+.BMI-Calculator-Chart-table h2{
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+.BMI-Calculator-Chart-table table{
+  width: 330px;
+  height:250px ;
+  text-align: left;
+}
+.BMI-Calculator-Chart-table table,tr,th,td{
+  color:rgb(167, 160, 160) ;
+  border-collapse: collapse;
+  border: 1px solid rgb(138, 137, 137);
+  padding-left: 15px;
+}
+.BMI-Calculator-Chart-table table,tr,th{
+  color: white;
+  font-size: 1.18rem;
+  font-weight: bolder;
+}
+.Calculate-your-BMI h2{
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 50px;
+
+}
+.Calculate-your-BMI  p{
+  color:rgb(215, 210, 210) ;
+  font-size: 1.12rem;
+  width: 650px;
+}
+.Calculate-your-BMI .from{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5px;
+}
+.Calculate-your-BMI .from,input,select{
+  width: 90%;
+  padding: 9px;
+  margin: 8px 0;
+  border-radius: 9px;
+  border: none;
+  font-size: 1.2rem;
+}
+.Calculate-your-BMI input,select{
+  background-color: rgb(161, 157, 157);
+  color: white;
+}
+.Calculate-your-BMI .from-btn{
+  padding: 15px 75px;
+  color: whitesmoke;
+  background-color: #e6533c;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 1px solid rgb(216, 67, 67);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------ Meet Our Team---------------------------------------- */
+.Meet-Our-Team-derection h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.Meet-Our-Team-derection p {
+  color: rgb(215, 210, 210);
+  text-align: center;
+  width: 572px;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+.Meet-Our-Team-Trainer {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 30px;
+}
+.Meet-Our-Team-Trainer img{
+  height: 300px;
+  width:90%;
+  border-radius: 50px;
+  padding: 18px;
+}
+
+/* ----------------------------------footer section---------------------------------------- */
+.footer-section {
+  background-color: rgb(36, 35, 35);
+}
+.footer-container {
+  width: 1440px;
+  margin: 0 auto;
+  height: 415px;
+
+}
+.footer-description {
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.footer-fitness {
+  padding: 10px 0px;
+}
+.footer-fitness h1 {
+  color: rgb(216, 67, 67);
+  font-size: 80px;
+  font-weight: bolder;
+}
+.footer-fitness p {
+  color: rgba(255, 255, 255, 0.5);
+  width: 380px;
+  margin-top: -35px;
+}
+.Get-Started h2 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: bolder;
+}
+.Get-Started h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+  font-weight: bolder;
+}
+.footer-end {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 45px;
+}
+
+/*------------------------------------ responsive -------------------------------- */
+@media screen (min-width: 576px) {
+  .navber {
+  }
+}
